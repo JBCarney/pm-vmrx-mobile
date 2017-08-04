@@ -1,0 +1,21 @@
+{
+  "name": "pm-vmrx-mobile",
+  "version": "1.0.0",
+  "description": "Prototype for VMRx Mobile application.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JBCarney/pm-vmrx-mobile.git"
+  },
+  "author": "Jason Carney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JBCarney/pm-vmrx-mobile/issues"
+  },
+  "homepage": "https://github.com/JBCarney/pm-vmrx-mobile#readme"
+}
