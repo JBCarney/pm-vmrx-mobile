@@ -1,0 +1,44 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.fa-3x.push-right {display:block;cursor:pointer;position: relative;z-index:102}
+.fa-3x.push-right:hover {color:#ccc !important}
+.overlay {position: absolute;background-color:#fff;width:100%;height:100%;z-index:101;display:none;}
+.overlay.active {display:block;}
+.overlay.active + .rx-pricing-display {
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+}
+
+#rx-selector, .rx-selections{display: none;}
+.alert {display:none;}
+.switch label input[type=checkbox]:checked + .lever:after{background-color: #4285f4}
+.js-view-more-content {display:none;margin-top: -20px;}
+.view-more {margin-right:5px;}
+.prices {margin-left:10px;font-weight:bold}
+.list-price {color:#ccc;margin-left:10px;text-decoration: line-through;}
+.price {color:green;}
+
+@-webkit-keyframes green-fade {
+    0% {background: rgba(76, 236, 32, 0.5);}
+    100% {background: none;}
+}
+
+@keyframes green-fade {
+    0% {background:rgba(76, 236, 32, 0.5);}
+    100% {background: none;}
+}
+
+.highlight-green {
+    -webkit-animation: green-fade 1s ease-in 1;
+    animation: green-fade 1s ease-in 1;
+}

@@ -1,0 +1,29 @@
+@html.extend('layout', function(model) {
+  @html.extend('nav', function(model) { })
+  @html.block('content', function(model) {
+    @html.extend('search', function(model) { })
+    <main class="rx-pricing-display">
+      <section class="rx-selections">
+        <div class="container">
+            <h3 class="mb-1 font-bold">Rx Selections: <span class="selection-total">$56.45</span></h3>
+            <div class="list-group rx-selection-display hidden">
+                <div class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between btn-group">
+                        <h5 class="mb-1">HYDROCODON-ACETAMINOPHN 10-325</h5>
+                        <a class="fa fa-remove"></a>
+                    </div>
+                    <p class="mb-1"><div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div></p>
+                    <small>Donec id elit non mi porta.</small>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
+    @html.extend('search-results', function(model) { })
+    @html.extend('set-quantity', function(model) { })
+    @html.extend('get-alternatives', function(model) { })
+    @html.extend('disclaimer', function(model) { })
+  })
+})
+
+

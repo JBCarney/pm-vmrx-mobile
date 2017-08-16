@@ -3,9 +3,19 @@
   "version": "1.0.0",
   "description": "Prototype for VMRx Mobile application.",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "popper.js": "^1.12.2",
+    "serve-favicon": "~2.4.2",
+    "vash": "~0.12.2"
+  },
   "devDependencies": {},
   "scripts": {
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

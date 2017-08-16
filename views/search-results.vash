@@ -1,0 +1,95 @@
+@html.block('search-results', function(model) {
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="js-static-results" class="search-results" style="display:none;">
+          <div class="clearfix">
+            <label class="search-results-count">
+              Search Results, Displaying:
+              <span>4</span> of <span >4</span>
+            </label>
+          </div>
+          <div class="results-container" >
+            <div class="list-view">
+              <div class="list-view-item">
+                <div class="list-view-item-header">
+                  <div class="header-content">
+                    <div class="search-title-container">
+                      <div class="search-title primary-text">
+                        TYLENOL 325 MG TABLET
+                      </div>
+                    </div>
+                    <div class="search-info secondary-text">
+                      <span class="icon-suggested-results"></span>
+                      <!--secondary text-->
+                    </div>
+                  </div>
+                  <div class="supplemental-actions">
+                    <a class="supplemental-action btn btn-primary search-select-control" tabindex="0">select</a>
+                  </div>
+                </div>
+              </div>
+                <div class="list-view-item">
+                  <div class="list-view-item-header">
+                    <div class="header-content">
+                      <div class="search-title-container">
+                        <div class="search-title primary-text">
+                          TYLENOL COLD &amp; FLU SEVERE CPLT
+                        </div>
+                      </div>
+                      <div class="search-info secondary-text">
+                        <span class="icon-suggested-results"></span>
+                        <!--secondary text-->
+                      </div>
+                    </div>
+                    <div class="supplemental-actions">
+                      <a class="supplemental-action btn btn-primary search-select-control" tabindex="0">select</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-view-item">
+                  <div class="list-view-item-header">
+                    <div class="header-content">
+                      <div class="search-title-container">
+                        <div class="search-title primary-text">
+                          TYLENOL EX-STR 500 MG CAPLET
+                        </div>
+                      </div>
+                      <div class="search-info secondary-text">
+                        <span class="icon-suggested-results"></span>
+                        <!--secondary text-->
+                      </div>
+                    </div>
+                      <div class="supplemental-actions">
+                        <a class="supplemental-action btn btn-primary search-select-control" tabindex="0">select</a>
+                      </div>
+                  </div>
+                </div>
+                <div class="list-view-item">
+                  <div class="list-view-item-header">
+                    <div class="header-content">
+                      <div class="search-title-container">
+                        <div class="search-title primary-text">
+                          TYLENOL WITH CODEINE #4 TABLET
+                        </div>
+                      </div>
+                      <div class="search-info secondary-text">
+                        <span class="icon-suggested-results"></span>
+                        <!--secondary text-->
+                      </div>
+                    </div>
+                    <div class="supplemental-actions">
+                      <a class="supplemental-action btn btn-primary search-select-control" tabindex="0">select</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+              <div class="show-more-container" style="display: none;">
+                <button class="btn btn-flat btn-show-more">Show More <i class="material-icons">refresh</i></button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+})

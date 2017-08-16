@@ -1,0 +1,78 @@
+@html.block('get-alternatives', function(model) {
+  <section id="rx-selector" class="shade-1 selected-rx">
+    <div class="container">
+      <div class="row col-sm-spacer">
+        <div class="col-sm-6 searched">
+          <div class="card-container">
+            <h3 class="font-bold">Selected Rx</h3>
+            <div class="card mb-1">
+              <div class="card-block">
+                <h5 class="card-title">HYDROCODON-ACETAMINOPHN 10-325</h5>
+                <div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div>
+                <div class="js-view-more push-right"><span class="fa fa-plus view-more"></span>  <span class="view-more-label">view more info</span></div>
+                <br/>
+                <div class="js-view-more-content">
+                  <div class="card-text"><label>Included in Per Diem:</label> <span class="red-text font-bold">No</span></div>
+                  <div class="card-text"><label>Med D:</label> <span class="red-text font-bold">N/A</span></div>
+                </div>
+                <button type="button" class="btn btn-primary waves-effect waves-light" data-step="1">Select</button>
+                <span class="prices"><span class="price">$82.82</span> <span class="list-price">$82.82</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 alternatives">
+          <h3 class="mb-custom">&nbsp;<span class="font-bold">Alternatives</span> &nbsp;<span class="new badge green">3</span></h3>
+          <div class="card-container">
+            <div class="card mb-1">
+              <div class="card-block">
+                <h5 class="card-title">NORCO 5-325 TABLET</h5>
+                <div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div>
+                <div class="js-view-more push-right"><span class="fa fa-plus view-more"></span>  <span class="view-more-label">view more info</span></div>
+                <br/>
+                <div class="js-view-more-content">
+                  <div class="card-text"><label>Included in Per Diem:</label> <span class="red-text font-bold">No</span></div>
+                  <div class="card-text"><label>Med D:</label> <span class="red-text font-bold">N/A</span></div>
+                </div>
+                <button type="button" class="btn btn-primary waves-effect waves-light" data-step="2">Select</button>
+                <span class="prices"><span class="price">$0.00</span> <span class="list-price">$82.82</span></span>
+              </div>
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card mb-1">
+              <div class="card-block">
+                <h5 class="card-title">NORCO 5-326 TABLET</h5>
+                <div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div>
+                <div class="js-view-more push-right"><span class="fa fa-plus view-more"></span>  <span class="view-more-label">view more info</span></div>
+                <br/>
+                <div class="js-view-more-content">
+                  <div class="card-text"><label>Included in Per Diem:</label> <span class="red-text font-bold">No</span></div>
+                  <div class="card-text"><label>Med D:</label> <span class="red-text font-bold">N/A</span></div>
+                </div>
+                <button type="button" class="btn btn-primary waves-effect waves-light" data-step="3">Select</button>
+                <span class="prices"><span class="price">$40.00</span> <span class="list-price">$32.24</span></span>
+              </div>
+            </div>
+          </div>
+          <div class="card-container">
+            <div class="card mb-1">
+              <div class="card-block">
+                <h5 class="card-title">NORCO 5-327 TABLET</h5>
+                <div class="card-text"><label>Package:</label> BOTTLE of 500 Unit(s)</div>
+                <div class="js-view-more push-right"><span class="fa fa-plus view-more"></span>  <span class="view-more-label">view more info</span></div>
+                <br/>
+                <div class="js-view-more-content">
+                  <div class="card-text"><label>Included in Per Diem:</label> <span class="red-text font-bold">No</span></div>
+                  <div class="card-text"><label>Med D:</label> <span class="red-text font-bold">N/A</span></div>
+                </div>
+                <button type="button" class="btn btn-primary waves-effect waves-light" data-step="4">Select</button>
+                <span class="prices"><span class="price">$30.00</span> <span class="list-price">$52.82</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+})

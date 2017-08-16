@@ -1,0 +1,56 @@
+@html.block('set-quantity', function(model) {
+  <section id="rx-detail-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 input-field md-form">
+          <h5 class="mb-1 font-bold">HYDROCODON-ACETAMINOPHN 10-325</h5>
+          <div><strong>Package:</strong> BOTTLE of 500 Unit(s)</div>
+        </div>
+      </div>
+      <div id="js-qty-ctrls">
+        <div class="row mb-2">
+          <div class="col-sm-12">
+            <div class="switch">
+              <label>
+                Daily Qty
+                <input id="radioQtyType" type="checkbox" name="isDailyQty">
+                <span class="lever"></span>
+                Total Qty
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-md-3">
+            <div class="input-field md-form">
+              <input id="dayQty" type="text" class="form-control" value="14">
+              <label for="dayQty">Days Supply*</label>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <div id="dailyQty" class="input-field md-form">
+              <input id="dailyQty" type="text" class="form-control" value="1">
+              <label for="dailyQty">Daily Quantity*</label>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-3">
+            <div id="totalQty" class="input-field md-form">
+              <input id="totalQty" type="text" class="form-control" value="14" disabled="disabled">
+              <label for="totalQty">Total Quantity*</label>
+            </div>
+          </div>
+        </div>
+        <div id="js-alert-qty-ctrls" class="row alert">
+          <div class="col-sm-12">
+            <div class="alert alert-danger alert-dismissable mb-1">Maecenas sed diam eget risus varius blandit sit amet non magna.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <button id="js-get-pricing" type="button" class="btn btn-primary waves-effect waves-light">Price &amp; Alternatives</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+})

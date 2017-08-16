@@ -1,0 +1,11 @@
+@html.block('disclaimer', function(model) {
+  <section>
+    <div class="container">
+      <h3 class="mb-1 font-bold">Pricing Estimates</h3>
+      <p>Pricing provided is not a quotation or promise to provide a certain price. We strive to provide accurate pricing using your contract with PharMerica, available payor information and the pricing system as of the day and time it was processed. For Fee-for-Service contract customers that are adjudicated through a third-party, wholesale pricing (AWP) will be displayed. Final pricing is subject to change without notice and is not considered final until invoiced. Actual invoiced amounts may vary due to a number of factors, which include, but are not limited to, the accuracy of payor information, the NDC carried by the pharmacy and the NDC available at the time of dispense.</p>
+      <p>* For IV's, Compounds and other medications that are dependent upon specialized handling, call your pharmacy.</p>
+      <p>* Accessories and supplies may be added to the order without notice and the cost may not be included in the pricing shown.</p>
+      <p>* Estimates for items that are not specifically listed can be obtained by calling your pharmacy.</p>
+    </div>
+  </section>
+})
